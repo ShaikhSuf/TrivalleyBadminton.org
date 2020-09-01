@@ -9,7 +9,6 @@ const middle = (props) => (
         <main className={classes.Middle}>
             <div className={classes.main}>
                 <div>
-                    Main window
                 </div>
                 <Footer />
             </div>
