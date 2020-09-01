@@ -1,0 +1,31 @@
+.Middle {
+    position: fixed;
+    top: 150px;
+    left: 0;
+    height: 100%;
+    display: flex;
+    width: 100%;
+}
+
+.main {
+    background-color: lightgray;
+    top: 150px;
+    width: 20%;
+    height: 100%;
+    flex: 80%;
+    }
+
+.ads {
+    background-color: lightgoldenrodyellow;
+    top: 150px;
+    width: 20%;
+    height: 100%;
+    flex: 20%;
+    }
+
+    .row {
+    }
+
+.column {
+    flex: 50%;
+}
