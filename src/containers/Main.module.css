@@ -1,0 +1,11 @@
+.Main {
+    position: fixed;
+    background-color: lightgray;
+    top: 150px;
+    left: 0px;
+    width: 80%;
+    height: 79%;
+    flex: 80%;
+    color: black;
+    }
+

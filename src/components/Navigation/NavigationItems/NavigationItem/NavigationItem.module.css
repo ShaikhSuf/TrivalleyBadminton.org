@@ -25,7 +25,7 @@
     .NavigationItem {
         margin: 0;
         display: flex;
-        height: 100%;
+        height: 35%;
         align-items: center;
         width: auto;
     }
@@ -37,11 +37,27 @@
         border-bottom: 4px solid transparent;
     }
     
+    .NavigationItem ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .NavigationItem li {
+        margin: 20px;
+    }
+    
+    .NavigationItem a {
+        text-decoration: none;
+        color: black;
+    }
+    
     .NavigationItem a:hover,
     .NavigationItem a:active,
-    .NavigationItem a:active {
-        background-color: #8f5c2c;
-        border-bottom: 4px solid #40a4c8;
-        color: white;
-    }    
+    .NavigationItem a.active {
+        color: #fa923a;
+    }
+
 }

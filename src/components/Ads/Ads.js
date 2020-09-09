@@ -5,7 +5,7 @@ import Aux from '../../hoc/Aux';
 const ads = (props) => (
 
     <div className = {classes.Ads}>
-        Ads
+        <h1>Ads</h1>
     </div>
 );
 

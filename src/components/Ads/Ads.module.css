@@ -1,5 +1,7 @@
 .Ads {
     background-color: lightgreen;
+    position: fixed;
+    top: 150px;
     width: 20%;
     height: 100%;
     top: 2000px;
